@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Radu Frantz Photography</title>
+<meta name="description" content="Book a concert, festival, portrait or wedding shoot with Radu Frantz. Send the date and the details and get an answer within a day.">
+<link rel="canonical" href="https://REPLACE-WITH-YOUR-DOMAIN.com/contact.html">
+<meta property="og:title" content="Contact — Radu Frantz Photography">
+<meta property="og:image" content="images/footer.jpg">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a class="brand" href="index.html">Radu Frantz<span>.</span></a>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+    <a class="btn header-cta" href="contact.html">Book a session <span class="arrow">&rarr;</span></a>
+    <button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<nav class="mobile-nav">
+  <a href="index.html">Home</a>
+  <a href="portfolio.html">Portfolio</a>
+  <a href="about.html">About</a>
+  <a href="services.html">Services</a>
+  <a href="contact.html">Contact</a>
+  <div class="m-meta">Available for bookings &middot; Romania &amp; EU</div>
+</nav>
+
+<main id="main">
+
+  <section class="page-head">
+    <div class="wrap">
+      <div class="crumbs"><a href="index.html">Home</a> / Contact</div>
+      <h1>Let's talk about <span class="red">your date</span></h1>
+      <p class="lead">Fill in the form, or just write to me directly — whatever is faster for you. I answer every message, usually within a day.</p>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:clamp(24px,3vw,40px)">
+    <div class="wrap split split--top reveal">
+
+      <!-- ============ FORMULAR ============
+           IMPORTANT: vezi TUTORIAL.md pasul 6 ca sa il conectezi la email.
+           Inlocuieste action="REPLACE_WITH_FORM_ENDPOINT" cu adresa de la Formspree
+           sau adauga netlify pe tag-ul <form> daca publici pe Netlify.
+      -->
+      <form class="form" data-contact method="POST" action="REPLACE_WITH_FORM_ENDPOINT">
+        <div class="row">
+          <div class="field">
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" required autocomplete="name">
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required autocomplete="email">
+          </div>
+        </div>
+        <div class="row">
+          <div class="field">
+            <label for="type">What is it for</label>
+            <select id="type" name="type">
+              <option>Concert / club show</option>
+              <option>Festival</option>
+              <option>Portrait session</option>
+              <option>Wedding</option>
+              <option>Christening / family event</option>
+              <option>Something else</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="date">Date</label>
+            <input id="date" name="date" type="date">
+          </div>
+        </div>
+        <div class="field">
+          <label for="place">City / venue</label>
+          <input id="place" name="place" type="text" placeholder="Where is it happening?">
+        </div>
+        <div class="field">
+          <label for="message">Tell me about it</label>
+          <textarea id="message" name="message" required placeholder="How long, how many people, what matters most to you..."></textarea>
+        </div>
+
+        <!-- capcana anti-spam: lasa-o exact asa, e invizibila -->
+        <div class="hp"><label>Leave this empty<input type="text" name="_gotcha" tabindex="-1" autocomplete="off"></label></div>
+
+        <button class="btn" type="submit">Send the message <span class="arrow">&rarr;</span></button>
+        <p class="note" data-status>I reply to everything, usually within 24 hours.</p>
+      </form>
+
+      <!-- ============ DATE DE CONTACT ============ -->
+      <div>
+        <!-- INLOCUIESTE cu datele tale reale -->
+        <div class="contact-card">
+          <h3>Email</h3>
+          <p><a href="mailto:ingradufrant@gmail.com">ingradufrant@gmail.com</a></p>
+        </div>
+        <div class="contact-card">
+          <h3>Phone / WhatsApp</h3>
+          <p><a href="tel:+40700000000">+40 700 000 000</a></p>
+        </div>
+        <div class="contact-card">
+          <h3>Social</h3>
+          <p>
+            <a href="https://instagram.com/USERNAME" target="_blank" rel="noopener">Instagram</a> &nbsp;·&nbsp;
+            <a href="https://facebook.com/USERNAME" target="_blank" rel="noopener">Facebook</a>
+          </p>
+        </div>
+        <div class="contact-card">
+          <h3>Based in</h3>
+          <p>YOUR CITY, Romania.<br>Travelling across Romania and Europe for the right project.</p>
+        </div>
+        <div class="contact-card" style="background:var(--ink);color:#fff;border-color:var(--ink)">
+          <h3 style="color:#fff">Response time</h3>
+          <p style="color:rgba(255,255,255,.75)">Weekdays: same day.<br>Festival season: give me 48 hours — I'm probably in a field somewhere.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="ribbon">
+    <div class="ribbon__track">
+      <span>Booking 2026</span><span>Booking 2027</span><span>Concerts</span><span>Portraits</span><span>Weddings</span>
+    </div>
+  </div>
+
+  <section class="section" style="padding-top:0">
+    <div class="wrap reveal" style="text-align:center">
+      <div class="eyebrow" style="justify-content:center">Before you write</div>
+      <h2 style="max-width:20ch;margin-inline:auto">Three lines are enough</h2>
+      <p class="lead" style="margin:22px auto 0">Date, place, what you need. Everything else we can figure out together.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="site-footer__grid">
+      <div>
+        <div class="site-footer__big">Radu Frantz<br><span class="red">Photography</span></div>
+        <p class="lead" style="margin-top:20px;font-size:15px">Concerts, festivals, portraits and life events. Based in Romania, available across Europe.</p>
+      </div>
+      <div>
+        <h4>Menu</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get in touch</h4>
+        <ul>
+          <li><a href="mailto:ingradufrant@gmail.com">ingradufrant@gmail.com</a></li>
+          <li><a href="tel:+40700000000">+40 700 000 000</a></li>
+          <li><a href="https://instagram.com/USERNAME" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://facebook.com/USERNAME" target="_blank" rel="noopener">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      <span>&copy; <span data-year>2026</span> Radu Frantz. All rights reserved.</span>
+      <span>Photographs may not be used without permission.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
